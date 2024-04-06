@@ -6,21 +6,30 @@ if (!(Get-Command winget -ErrorAction SilentlyContinue)) {
 
 # Array of packages to install
 $packagesToInstall = @(
-	"Git.Git"
-	"GitHub.GitHubDesktop"
+    "Git.Git"
+    "GitHub.GitHubDesktop"
     "Notepad++.Notepad++" 
-	"Neovim.Neovim"
+    "Neovim.Neovim"
     "Helix.Helix"  
-	"Microsoft.VisualStudioCode"
+    "Microsoft.VisualStudioCode"
 )
 
+# Display packages to install
+Write-Host "$($packagesToInstall.Count) packages to install"
+foreach ($package in $packagestoInstall) {
+    Write-Host "- $package"
+}
+
+Write-Host ""
+
 # Install each package
-foreach ($package in $packagesToInstall) {
-    Write-Host "Installing $package..."
+for ($i = 0; $i -lt $packagesToInstall.Count; $i++) {
+    $package = $packagesToInstall[$i]
+    $packageNumber = $i + 1
+    Write-Host "$packageNumber/$($packagesToInstall.Count) Installing $package..."
     winget install --id $package -e --silent
 }
 
-Write-Host "Installation complete!"
-
-Write-Host "Press any key to continue..."
+Write-Host ""
+Write-Host "Installation complete! Press any key to continue..."
 Read-Host 
