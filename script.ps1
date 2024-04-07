@@ -12,6 +12,8 @@ $packagesToInstall = @(
     "Neovim.Neovim"
     "Helix.Helix"  
     "Microsoft.VisualStudioCode"
+    "VideoLAN.VLC"
+    "7zip.7zip"
 )
 
 # Display packages to install
