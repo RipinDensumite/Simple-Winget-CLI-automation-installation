@@ -14,6 +14,8 @@ $packagesToInstall = @(
     "Microsoft.VisualStudioCode"
     "VideoLAN.VLC"
     "7zip.7zip"
+    "Microsoft.PowerToys"
+    "Figma.Figma"
 )
 
 # Display packages to install
