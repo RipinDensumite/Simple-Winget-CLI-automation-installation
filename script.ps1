@@ -17,6 +17,7 @@ $packagesToInstall = @(
     "Microsoft.PowerToys"
     "Figma.Figma"
     "Oven-sh.Bun"
+    "OpenJS.NodeJS"
 )
 
 # Display packages to install
