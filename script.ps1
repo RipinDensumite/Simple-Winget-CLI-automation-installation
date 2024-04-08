@@ -16,6 +16,7 @@ $packagesToInstall = @(
     "7zip.7zip"
     "Microsoft.PowerToys"
     "Figma.Figma"
+    "Oven-sh.Bun"
 )
 
 # Display packages to install
