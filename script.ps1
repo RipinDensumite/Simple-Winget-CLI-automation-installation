@@ -18,6 +18,7 @@ $packagesToInstall = @(
     "Figma.Figma"
     "Oven-sh.Bun"
     "OpenJS.NodeJS"
+    "Yarn.Yarn"
 )
 
 # Display packages to install
