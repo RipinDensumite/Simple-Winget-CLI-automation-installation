@@ -33,7 +33,7 @@ Write-Host ""
 for ($i = 0; $i -lt $packagesToInstall.Count; $i++) {
     $package = $packagesToInstall[$i]
     $packageNumber = $i + 1
-    Write-Host "$packageNumber/$($packagesToInstall.Count) Installing $package..."
+    Write-Host "> $packageNumber/$($packagesToInstall.Count) Installing $package..."
     winget install --id $package -e --silent
 }
 
