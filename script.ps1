@@ -19,6 +19,7 @@ $packagesToInstall = @(
     "Oven-sh.Bun"
     "OpenJS.NodeJS"
     "Yarn.Yarn"
+    "MongoDB.Compass.Full"
 )
 
 # Display packages to install
