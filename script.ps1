@@ -20,6 +20,7 @@ $packagesToInstall = @(
     "OpenJS.NodeJS"
     "Yarn.Yarn"
     "MongoDB.Compass.Full"
+    "Termius.Termius"
 )
 
 # Display packages to install
