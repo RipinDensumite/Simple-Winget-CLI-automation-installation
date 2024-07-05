@@ -16,9 +16,7 @@ $packagesToInstall = @(
     "7zip.7zip"
     "Microsoft.PowerToys"
     "Figma.Figma"
-    "Oven-sh.Bun"
-    "OpenJS.NodeJS.LTS"
-    "Yarn.Yarn"
+    "OpenJS.NodeJS"
     "MongoDB.Compass.Full"
     "Termius.Termius"
 )
